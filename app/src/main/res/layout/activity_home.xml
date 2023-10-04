@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/lovebutton"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <Button
+        android:id="@+id/love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/loveicon"
+        android:paddingHorizontal="83dp"
+        android:textSize="24sp"
+        android:background="@drawable/lovebutton"
+        android:paddingVertical="20dp"
+        android:drawablePadding="20dp"
+        android:text="@string/love"/>
+    <Button
+        android:id="@+id/sad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/heart_broken"
+        android:paddingHorizontal="90dp"
+        android:textSize="24sp"
+        android:background="@drawable/lovebutton"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="20dp"
+        android:drawablePadding="20dp"
+        android:text="@string/sad"/>
+    <Button
+        android:id="@+id/motivation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/motivationicon"
+        android:paddingHorizontal="5dp"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lovebutton"
+        android:paddingVertical="20dp"
+        android:drawablePadding="20dp"
+        android:text="@string/motivational"
+        />
+
+</LinearLayout>
