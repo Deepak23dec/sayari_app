@@ -7,8 +7,9 @@
     android:background="@drawable/lovebutton"
     android:layout_height="match_parent"
     tools:context=".home">
-
+<!-- this project done by Deepak chaudhary and Ananya Varshney-->
     <Button
+
         android:id="@+id/love"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

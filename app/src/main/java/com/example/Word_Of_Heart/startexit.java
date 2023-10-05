@@ -6,8 +6,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.majnuleleshayari.R;
-
 public class startexit extends AppCompatActivity {
 
     //project done by Deepak Chaudhary and Ananya Varshney

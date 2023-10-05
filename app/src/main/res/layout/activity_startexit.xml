@@ -3,17 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".startexit">
-
+    <!-- this project done by Deepak chaudhary and Ananya Varshney-->
     <Button
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/startexittbn"
         android:drawableStart="@drawable/start"
-        android:paddingHorizontal="50dp"
-        android:drawablePadding="10dp"
+        android:paddingHorizontal="44dp"
+        android:drawablePadding="20dp"
         android:paddingVertical="15dp"
         android:text="@string/start" />
 
@@ -21,9 +23,10 @@
         android:id="@+id/exita"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="56dp"
+        android:background="@drawable/startexittbn"
+        android:paddingHorizontal="50dp"
         android:paddingVertical="15dp"
-        android:drawablePadding="10dp"
+        android:drawablePadding="20dp"
         android:layout_marginTop="30dp"
         android:drawableStart="@drawable/exita"
         android:text="@string/exit" />
