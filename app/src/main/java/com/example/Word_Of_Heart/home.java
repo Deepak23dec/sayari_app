@@ -1,4 +1,4 @@
-package com.example.majnuleleshayari;
+package com.example.Word_Of_Heart;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,10 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class home extends AppCompatActivity {
+import com.example.majnuleleshayari.R;
 
+public class home extends AppCompatActivity {
+//project done by Deepak Chaudhary and Ananya Varshney
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

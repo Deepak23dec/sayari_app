@@ -1,4 +1,4 @@
-package com.example.majnuleleshayari;
+package com.example.Word_Of_Heart;
 
 import android.content.Context;
 
