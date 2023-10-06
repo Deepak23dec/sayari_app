@@ -10,10 +10,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:orientation="horizontal"
-        android:layout_marginTop="10dp"
-        >
+        android:gravity="center"
+        android:layout_marginTop="20dp">
         <Button
             android:id="@+id/back"
             style="?android:attr/buttonBarButtonStyle"
@@ -34,59 +33,60 @@
             android:paddingHorizontal="20dp" />
 
     </LinearLayout>
-   <LinearLayout
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:orientation="vertical"
-       android:gravity="center">
-       <Button
-           android:id="@+id/love"
-           android:layout_width="250dp"
-           android:layout_height="wrap_content"
-           android:drawableEnd="@drawable/loveicon"
-           android:paddingHorizontal="50dp"
-           android:textSize="24sp"
-           android:layout_gravity="center"
-           android:textStyle="bold"
-           android:textColor="#000000"
-           android:background="@drawable/lovebutton"
-           android:paddingVertical="20dp"
-           android:drawablePadding="20dp"
-           android:text="@string/love"/>
 
-       <Button
-           android:id="@+id/sad"
-           android:layout_width="250dp"
-           android:layout_height="wrap_content"
-           android:layout_gravity="center"
-           android:layout_marginTop="30dp"
-           android:background="@drawable/lovebutton"
-           android:drawableEnd="@drawable/heart_broken"
-           android:drawablePadding="20dp"
-           android:paddingHorizontal="50dp"
-           android:paddingVertical="20dp"
-           android:text="@string/sad"
-           android:textColor="#000000"
-           android:textSize="24sp"
-           android:textStyle="bold" />
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:gravity="center"
+          android:layout_gravity="center">
+          <Button
+              android:id="@+id/love"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:drawableEnd="@drawable/loveicon"
+              android:paddingHorizontal="85dp"
+              android:textSize="24sp"
+              android:textStyle="bold"
+              android:textColor="#000000"
+              android:layout_gravity="center"
+              android:background="@drawable/lovebutton"
+              android:paddingVertical="20dp"
+              android:drawablePadding="20dp"
+              android:text="@string/love"/>
 
-       <Button
-           android:id="@+id/motivation"
-           android:layout_width="250dp"
-           android:layout_height="wrap_content"
-           android:drawableEnd="@drawable/motivationicon"
-           android:paddingHorizontal="5dp"
-           android:textSize="24sp"
-           android:textStyle="bold"
-           android:textColor="#000000"
-           android:layout_gravity="center"
-           android:layout_marginTop="30dp"
-           android:background="@drawable/lovebutton"
-           android:paddingVertical="20dp"
-           android:drawablePadding="20dp"
-           android:text="@string/motivational"
-           android:layout_marginBottom="55dp"
-           />
+          <Button
+              android:id="@+id/sad"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="30dp"
+              android:background="@drawable/lovebutton"
+              android:drawableEnd="@drawable/heart_broken"
+              android:drawablePadding="20dp"
+              android:paddingHorizontal="92dp"
+              android:paddingVertical="20dp"
+              android:text="@string/sad"
+              android:textColor="#000000"
+              android:textSize="24sp"
+              android:textStyle="bold" />
+
+          <Button
+              android:id="@+id/motivation"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:drawableEnd="@drawable/motivationicon"
+              android:paddingHorizontal="5dp"
+              android:textSize="24sp"
+              android:textStyle="bold"
+              android:textColor="#000000"
+              android:layout_gravity="center"
+              android:layout_marginTop="30dp"
+              android:background="@drawable/lovebutton"
+              android:paddingVertical="20dp"
+              android:drawablePadding="20dp"
+              android:text="@string/motivational"
+              />
+      </LinearLayout>
    </LinearLayout>
 
-</LinearLayout>
