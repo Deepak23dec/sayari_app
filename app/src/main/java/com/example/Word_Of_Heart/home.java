@@ -14,6 +14,8 @@ public class home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
        Button love=findViewById(R.id.love);
          Button sad=findViewById(R.id.sad);
+         Button back= findViewById(R.id.back);
+         Button exit=findViewById(R.id.exit);
          Button motivation=findViewById(R.id.motivation);
         love.setOnClickListener(view -> {
             Intent i=new Intent(home.this,MainActivity.class);
@@ -27,5 +29,10 @@ public class home extends AppCompatActivity {
             Intent i=new Intent(home.this,shayari3.class);
             startActivity(i);
         });
+        back.setOnClickListener(view -> {
+            Intent i=new Intent(home.this,startexit.class);
+            startActivity(i);
+        });exit.setOnClickListener(view -> finishAffinity());
+
     }
 }

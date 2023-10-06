@@ -3,11 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     android:background="@drawable/lovebutton"
     android:layout_height="match_parent"
     tools:context=".home">
 <!-- this project done by Deepak chaudhary and Ananya Varshney-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/back"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120dp"
+            android:contentDescription="@string/home"
+            android:drawableStart="@drawable/backarrow"
+            android:paddingHorizontal="20dp" />
+        <Button
+            android:id="@+id/exit"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120sp"
+
+            android:contentDescription="@string/home"
+            android:drawableStart="@drawable/exit"
+            android:paddingHorizontal="20dp" />
+
+    </LinearLayout>
     <Button
 
         android:id="@+id/love"
@@ -16,6 +43,10 @@
         android:drawableEnd="@drawable/loveicon"
         android:paddingHorizontal="83dp"
         android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
         android:background="@drawable/lovebutton"
         android:paddingVertical="20dp"
         android:drawablePadding="20dp"
@@ -27,6 +58,9 @@
         android:drawableEnd="@drawable/heart_broken"
         android:paddingHorizontal="90dp"
         android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center"
         android:background="@drawable/lovebutton"
         android:layout_marginTop="30dp"
         android:paddingVertical="20dp"
@@ -39,6 +73,9 @@
         android:drawableEnd="@drawable/motivationicon"
         android:paddingHorizontal="5dp"
         android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:background="@drawable/lovebutton"
         android:paddingVertical="20dp"

@@ -4,215 +4,237 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FAFFFE"
     tools:context=".shayari3">
     <!-- this project done by Deepak chaudhary and Ananya Varshney-->
-    <FrameLayout
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="1dp">
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="62dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <ScrollView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            tools:ignore="UselessParent"
             android:background="@color/white"
-            android:layout_margin="10dp">
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UselessParent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+            android:layout_margin="5dp">
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str41"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str42"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str43"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str44"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
-                    android:textColor="@color/black"
                     android:text="@string/str45"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str46"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str47"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str48"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str49"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str50"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str51"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str52"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str53"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str54"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str55"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str56"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str57"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str58"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textColor="@color/black"
                     android:background="@drawable/shayrirec"
                     android:gravity="center"
                     android:text="@string/str59"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
-
-
-
 
             </LinearLayout>
 
-
         </ScrollView>
-    </FrameLayout>
+    </androidx.cardview.widget.CardView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/layoutbackground"
